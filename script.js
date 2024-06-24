@@ -9,33 +9,55 @@ $(function () {
 
 
 //選択ボタンデータを配列に入れてカウントする関数
-    var countA;
-    var countB;
-    var box =[];
-  $(".btn").each(function(){
-    $(this).on('click',function(){
-      var value = $(this).data("value");
-       box.push(value);
+var countA, countB, countC, countD, countE, countF, countG, countH, countI;
+var box =[];
+$(".btn").each(function(){
+$(this).on('click',function(){
+  var value = $(this).data("value");
+   box.push(value);
 
-      countA = box.filter(function(x){
-                    return x === "a"
-                  }).length;
-      countB = box.filter(function(y){
-                      return y === "b"
-                  }).length;
-    });
-  });
+  countA = box.filter(function(x){
+                  return x === "a"
+              }).length;
+  countB = box.filter(function(x){
+                  return x === "b"
+              }).length;
+  countC = box.filter(function(x){
+                  return x === "c"
+              }).length;
+  countD = box.filter(function(x){
+                  return x === "d"
+              }).length;
+  countE = box.filter(function(x){
+                  return x === "e"
+              }).length;
+  countF = box.filter(function(x){
+                  return x === "f"
+              }).length;
+  countG = box.filter(function(x){
+                  return x === "g"
+              }).length;
+  countH = box.filter(function(x){
+                  return x === "h"
+              }).length;
+  countI = box.filter(function(x){
+                  return x === "i"
+              }).length;
+
+});
+});
 
 
 //結果を出力する関数
-$('.end').on('click', function() {
-  if (countA > countB) {
-      $('#answer_01').css("display",""); //回答1
-  } else if (countA < countB) {
-      $('#answer_02').css("display",""); //回答2
-  } else {
-      $('#answer_01, #answer_02').css("display",""); //回答1と回答2の両方
-  }
+$(".end").on("click", function() {
+  var counts = [{name: 'A', value: countA}, {name: 'B', value: countB}, {name: 'C', value: countC}, {name: 'D', value: countD}, {name: 'E', value: countE}, {name: 'F', value: countF}, {name: 'G', value: countG}, {name: 'H', value: countH}, {name: 'I', value: countI}];
+  var maxCount = Math.max(...counts.map(c => c.value));
+
+  counts.forEach(function(count) {
+     if(count.value === maxCount) {
+        $('#answer_0' + (count.name.charCodeAt(0) - 'A'.charCodeAt(0) + 1)).css("display","");
+     }
+  });
 });
 
 });
