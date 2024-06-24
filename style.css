@@ -237,3 +237,8 @@ ul {
   color: #2791d4;
   transition: 0.5s;
 }
+
+.omake {
+  text-align: center;
+  font-size: 100px;
+}
