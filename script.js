@@ -53,11 +53,20 @@ $(".end").on("click", function() {
   var counts = [{name: 'A', value: countA}, {name: 'B', value: countB}, {name: 'C', value: countC}, {name: 'D', value: countD}, {name: 'E', value: countE}, {name: 'F', value: countF}, {name: 'G', value: countG}, {name: 'H', value: countH}, {name: 'I', value: countI}];
   var maxCount = Math.max(...counts.map(c => c.value));
 
-  counts.forEach(function(count) {
-     if(count.value === maxCount) {
+  var totalCount = 0;
+  for (var i = 0; i < counts.length; i++) {
+      totalCount += counts[i].value;
+  }
+
+  if (totalCount === 0) {
+     $('#answer_0').css("display","");
+  } else {
+    counts.forEach(function(count) {
+      if(count.value === maxCount) {
         $('#answer_0' + (count.name.charCodeAt(0) - 'A'.charCodeAt(0) + 1)).css("display","");
-     }
-  });
+      }
+    });
+  }
 });
 
 });
