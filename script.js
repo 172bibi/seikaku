@@ -60,10 +60,16 @@ $(".end").on("click", function() {
 
   if (totalCount === 0) {
      $('#answer_0').css("display","");
+     $('#questionimage').css("display","none");
+     $('#resultimage').css("display","none");
+     $('#omakeimage').css("display","");
   } else {
     counts.forEach(function(count) {
       if(count.value === maxCount) {
         $('#answer_0' + (count.name.charCodeAt(0) - 'A'.charCodeAt(0) + 1)).css("display","");
+        $('#questionimage').css("display","none");
+        $('#resultimage').css("display","");
+        $('#omakeimage').css("display","none");
       }
     });
   }
