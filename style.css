@@ -97,61 +97,6 @@ ul {
   text-align: center;
 }
 
-/*----------------------------------------タイプ0↓----------------------------------------*/
-.result_type0 h4 {
-  width: 50%;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
-  background-color: #cb1411;
-}
-
-.result_discription0 {
-  text-align: center;
-  margin-bottom: 5%;
-}
-
-.result_discription0 h2 {
-  color: #000000;
-  text-align: center;
-}
-
-.result_discription0 h3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-  font-size: 20px;
-}
-
-.result_discription0 p {
-  font-family: "游ゴシック体", YuGothic;
-  margin-left: 24%;
-  margin-right: 20%;
-  width: 50%;
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #cb1411;
-  color: #000000;
-  font-size: 20px;
-  line-height: 35px;
-  box-shadow: -5px 0px 1px #cb1411;
-  border-radius: 5px;
-  margin-bottom: 0;
-}
-
-.result_discription0 li {
-  margin-top: 0;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 600;
-}
-/*----------------------------------------タイプ0↑----------------------------------------*/
-
 /*----------------------------------------タイプ1↓----------------------------------------*/
 .result_type1 h4 {
   width: 50%;
@@ -162,7 +107,7 @@ ul {
   font-weight: 600;
   color: #fff;
   text-align: center;
-  background-color: #c47909;
+  background-color: #cb1411;
 }
 
 .result_discription1 {
@@ -190,11 +135,11 @@ ul {
   width: 50%;
   padding: 10px;
   text-align: left;
-  border: 1px solid #c47909;
+  border: 1px solid #cb1411;
   color: #000000;
   font-size: 20px;
   line-height: 35px;
-  box-shadow: -5px 0px 1px #c47909;
+  box-shadow: -5px 0px 1px #cb1411;
   border-radius: 5px;
   margin-bottom: 0;
 }
@@ -206,6 +151,446 @@ ul {
   font-weight: 600;
 }
 /*----------------------------------------タイプ1↑----------------------------------------*/
+
+/*----------------------------------------タイプ2↓----------------------------------------*/
+.result_type2 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #df09b4;
+}
+
+.result_discription2 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription2 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription2 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription2 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #df09b4;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #df09b4;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription2 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ2↑----------------------------------------*/
+
+/*----------------------------------------タイプ3↓----------------------------------------*/
+.result_type3 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #b8c409;
+}
+
+.result_discription3 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription3 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription3 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription3 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #b8c409;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #b8c409;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription3 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ3↑----------------------------------------*/
+
+/*----------------------------------------タイプ4↓----------------------------------------*/
+.result_type4 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #8c09c4;
+}
+
+.result_discription4 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription4 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription4 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription4 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #8c09c4;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #8c09c4;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription4 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ4↑----------------------------------------*/
+
+/*----------------------------------------タイプ5↓----------------------------------------*/
+.result_type5 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #1f09c4;
+}
+
+.result_discription5 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription5 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription5 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription5 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #1f09c4;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #1f09c4;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription5 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ5↑----------------------------------------*/
+
+/*----------------------------------------タイプ6↓----------------------------------------*/
+.result_type6 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #4b4f51;
+}
+
+.result_discription6 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription6 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription6 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription6 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #4b4f51;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #4b4f51;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription6 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ6↑----------------------------------------*/
+
+/*----------------------------------------タイプ7↓----------------------------------------*/
+.result_type7 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #e08c0d;
+}
+
+.result_discription7 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription7 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription7 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription7 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #e08c0d;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #e08c0d;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription7 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ7↑----------------------------------------*/
+
+/*----------------------------------------タイプ8↓----------------------------------------*/
+.result_type8 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #826643;
+}
+
+.result_discription8 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription8 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription8 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription8 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #826643;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #826643;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription8 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ8↑----------------------------------------*/
+
+/*----------------------------------------タイプ9↓----------------------------------------*/
+.result_type9 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #11d691;
+}
+
+.result_discription9 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription9 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription9 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription9 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #11d691;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #11d691;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription9 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ9↑----------------------------------------*/
 
 .return-btn {
   margin-top: 5%;
