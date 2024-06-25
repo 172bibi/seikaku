@@ -162,7 +162,7 @@ ul {
   font-weight: 600;
   color: #fff;
   text-align: center;
-  background-color: #c409c4;
+  background-color: #df09b4;
 }
 
 .result_discription2 {
@@ -190,11 +190,11 @@ ul {
   width: 50%;
   padding: 10px;
   text-align: left;
-  border: 1px solid #c409c4;
+  border: 1px solid #df09b4;
   color: #000000;
   font-size: 20px;
   line-height: 35px;
-  box-shadow: -5px 0px 1px #c409c4;
+  box-shadow: -5px 0px 1px #df09b4;
   border-radius: 5px;
   margin-bottom: 0;
 }
@@ -371,6 +371,61 @@ ul {
   font-weight: 600;
 }
 /*----------------------------------------タイプ5↑----------------------------------------*/
+
+/*----------------------------------------タイプ6↓----------------------------------------*/
+.result_type6 h4 {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #4b4f51;
+}
+
+.result_discription6 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.result_discription6 h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.result_discription6 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.result_discription6 p {
+  font-family: "游ゴシック体", YuGothic;
+  margin-left: 24%;
+  margin-right: 20%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #4b4f51;
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+  box-shadow: -5px 0px 1px #4b4f51;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.result_discription6 li {
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*----------------------------------------タイプ6↑----------------------------------------*/
 
 .return-btn {
   margin-top: 5%;
